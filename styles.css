@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+@media screen and (max-width: 500px) {
+    #header {
+        min-height: 15vh;
+    }
+    #header-img {
+        max-width: 181px;
+        max-height: 47px;
+        margin: 3vh 0 0 0;
+    }
+    #legend {
+        margin: 2.7em 1em 0 1em;
+    }
+    #f-services {
+        font-size: 1em;
+        margin-top: 12em;
+    }
+    #s-services {
+        font-size: 1em;
+    }
+    #t-services {
+        font-size: 1em;
+    }
+    .ico {
+        min-width: 10vw;
+    }
+    #f-ico {
+        min-width: 10vw;
+        position: absolute;
+        margin-top: 8em;
+    }
+    #section3 {
+        font-size: 0.5em;
+    }
+}
+
+#section1 {
+    background: linear-gradient(105deg, rgba(238, 94, 10, 0.9), rgba(83, 13, 74, 0.9) 70.71%), url(https://goopics.net/i/wxe0ed);
+    background-size: cover;
+    max-width: 100%;
+    width: 100vw;
+    height: 100vh;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    width: 20em;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    margin: auto;
+}
+
+.nav-link:hover {
+    opacity: 0.3;
+}
+
+#header {
+    position: fixed;
+    max-width: 100%;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#header-img {
+    cursor: pointer;
+}
+
+#video {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#legend {
+    font-size: 3em;
+}
+
+#author {
+    font-size: 20px;
+}
+
+#section2 {
+    background: linear-gradient(105deg, rgba(238, 94, 10, 0.9), rgba(83, 13, 74, 0.9) 70.71%), url(https://truetopia.com/wp-content/uploads/2020/08/Shared-Workspace-1024x682.jpg);
+    background-size: cover;
+    max-width: 100%;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#section3 {
+    background: linear-gradient(105deg, rgba(238, 94, 10, 0.9), rgba(83, 13, 74, 0.9) 70.71%), url(https://www.transatel.com/wp-content/uploads/2021/02/employees-quality-network-1-1-1024x682.png);
+    background-size: cover;
+    max-width: 100%;
+    width: 100vw;
+    height: 100vh;
+}
+
+#f-services {
+    text-align: center;
+}
+
+#s-services {
+    text-align: center;
+}
+
+#t-services {
+    text-align: center;
+}
+.icone {
+    display: flex;
+    justify-content: center;
+}
+
+.ico {
+    max-width: 5vw;
+}
+
+#f-ico {
+    max-width: 5vw;
+}
+
+#top-line {
+    width: 20vw;
+}
+
+#bot-line {
+    width: 10vw;
+}
+
+#container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#email {
+    background-color: transparent;
+    border: 1px solid white;
+    width: 30vw;
+    height: 5vh;
+    font-size: 2em;
+    color: white;
+}
+
+#email::placeholder {
+    color: white;
+    opacity: 0.5;
+}
+
+#lab {
+    font-size: 3em;
+    margin-bottom: 4em;
+}
+
+.titler {
+    color: #000000;
+    background: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#submit {
+    margin-top: 5em;
+    background: rgb(255, 255, 255);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 1em;
+    font-weight: 900;
+    font-style: italic;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#submit:hover {
+    opacity: 0.5;
+}
